@@ -1,7 +1,8 @@
 name: Build Armbian
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+    # no parms
   release:
     types: published
   push:
